@@ -1,0 +1,38 @@
+site_name: 足部・足関節外科ノート
+site_description: 臨床および研究に関する記録（公開可能な範囲）
+site_author: ""
+repo_url: ""
+repo_name: ""
+
+theme:
+  name: material
+  language: ja
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Index: index.md
+  - 運用・公開ポリシー: policy.md
+  - 臨床:
+      - 臨床トップ: clinical/index.md
+      - 共通アルゴリズム: clinical/algorithm.md
+      - 外来の型: clinical/outpatient.md
+      - 問診・インターラクションの型: clinical/interaction.md
+      - 手術記録の型: clinical/surgery_note.md
+  - 研究:
+      - 研究トップ: research/index.md
+      - 業績: research/achievements.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - footnotes
+
+
