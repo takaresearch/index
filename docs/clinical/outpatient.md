@@ -4,7 +4,7 @@
 
 1. **Diagnosis**  
 2. **Plan**（次回外来のアクションを含む If–Then）  
-3. **MAIN paragraph**（"It was a pleasure to see …" から開始）  
+3. **Main paragraph**（"It was a pleasure to see …" から開始）  
 4. **Impression and recommendation**  
 
 加えて、患者名は常に **`[PATIENT]`** とし、症例を特定できる要素（日時・施設・地域・職業など）はプレースホルダ（例：`[DATE]`, `[MONTH]`, `[OCCUPATION]`）で管理します。
@@ -14,9 +14,9 @@
 - **診断とプランは常に同じアルゴリズム**（`clinical/algorithm.md`）で回します。
 - **レターの冒頭は Diagnosis と Plan**であり、結論を先に提示します（情報の羅列を目的にしません）。
 - Planは必ず「次回何をするか」を含み、可能な限り**次回で決着がつく設計**に寄せます。
-- レター本文（MAIN paragraph）は「読者が前提知識なしに追える」よう、要点のみを因果順に配置します。
+- レター本文（Main paragraph）は「読者が前提知識なしに追える」よう、要点のみを因果順に配置します。
 
-## 1. レターテンプレ（共通・コピペ用）
+## 1. レターテンプレ（共通）
 
 以下は、外来レターを最短で作成するための共通骨格です。`New referral`と`Follow-up`のいずれでも、まずはこの枠で書き、必要に応じてState別テンプレ（後述）へ寄せます。
 
@@ -33,6 +33,7 @@
 - bilateral | unilateral | left | right
 - refractory to conservative management
 - secondary to [CAUSE]
+- injury occurred [DATE] | sustained [DATE]
 
 **テンプレート例**:
 - [DIAGNOSIS 1]  
@@ -75,18 +76,7 @@
 
 ---
 
-#### （補足）Temporarily の位置づけ
-
-"Temporarily"の記載は、原理的には**Planのうち「検査待機中（while awaiting investigations）」の暫定方針**です。すなわち、(1)フォロー時期の宣言と、(2)待機期間中に継続すべき保存療法（期限つき）に分解して、上記のPlan箇条書きに統合します。
-
-**書き方例（匿名化・プレースホルダ化）**:
-
-- Follow up in my clinic after investigations are complete (approx. **[~X months]**).  
-- Advised to continue **[physiotherapy / shockwave / heel cups / night splints]** for **[X months]** while awaiting investigations.  
-
----
-
-### MAIN paragraph
+### Main paragraph
 
 **構造**: 挨拶→主訴（機能障害として）→発症と経過→既治療→身体所見→検査
 
@@ -211,9 +201,9 @@ I recommend **[RECOMMENDATION]**, and I will review [PATIENT] in **[FOLLOW-UP TI
 - 公開ノートでは、患者名は常に **`[PATIENT]`** とし、日時・施設・地域・職業などもプレースホルダで表現する。実症例の全文は公開外（`private/` 等）へ分離する。  
 - “上級医に相談するための情報”と“患者説明に必要な情報”は重なるが同一ではない。前者は仮説と分岐設計、後者は期待値調整（治療期間と見通し）に重心がある。  
 
-## 5. サンプルレター（完全匿名化・コピペ用）
+## 5. サンプルレター（完全匿名化）
 
-以下は、先生が提示されたレター断片を、**患者名を`[PATIENT]`へ置換**し、日時・職業・施設などの症例同定性を**プレースホルダ化**した上で、**固定順序（Diagnosis → Plan → MAIN paragraph → Impression and recommendation）**に再構成したサンプルである。
+以下は、先生が提示されたレター断片を、**患者名を`[PATIENT]`へ置換**し、日時・職業・施設などの症例同定性を**プレースホルダ化**した上で、**固定順序（Diagnosis → Plan → Main paragraph → Impression and recommendation）**に再構成したサンプルである。
 
 ### Sample 1（New referral：Diagnostic testing and follow up）
 
@@ -229,7 +219,7 @@ I recommend **[RECOMMENDATION]**, and I will review [PATIENT] in **[FOLLOW-UP TI
 - Advised to continue physiotherapy, shockwave therapy, heel cups, and night splints for **[~4 months]** while awaiting investigations.  
 - Investigations: **[INVESTIGATIONS]** (purpose: confirm plantar fascia pathology; assess for alternative causes of medial heel pain; characterise dorsal mass if required)  
 
-#### MAIN paragraph
+#### Main paragraph
 
 It was a pleasure to see **[PATIENT]** today for assessment of bilateral foot pain. [PATIENT] presents with a **[2–3 year]** history of bilateral foot pain, worse on the left. The pain is most severe with the first steps in the morning and after periods of rest. Symptoms have been refractory to conservative treatments, including physiotherapy exercises, hot and cold compresses, **[two]** steroid injections (providing only brief relief), shockwave therapy, and night splints.  
 On examination, there is a palpable, soft, cystic-feeling mass on the dorsal aspect of the left foot, consistent with a ganglion cyst.
@@ -266,7 +256,7 @@ I recommend completion of the requested investigations and continuation of the a
   - If symptoms worsen or fail to improve by **[MONTH YEAR]**, return for review  
   - Review in **[X months]** to assess progress  
 
-#### MAIN paragraph
+#### Main paragraph
 
 It was a pleasure to see **[PATIENT]** for review regarding ankle and forefoot symptoms. [PATIENT] reports a history of inversion injuries affecting the ankles (including a significant inversion injury at work on **[DATE]** and a further inversion injury on **[DATE]**), with ongoing functional limitation. Prior management has included immobilisation in a boot and physiotherapy with mixed results.  
 Currently, [PATIENT] describes episodic lateral ankle pain when overactive (e.g., running or jumping), with perceived instability and occasional rolling episodes. [PATIENT] also reports forefoot symptoms consistent with hallux rigidus, including hypersensitivity and activity limitation. There are **[no / some]** associated neuropathic symptoms, such as tingling or numbness over the dorsolateral foot, particularly at night, which may disturb sleep.  
@@ -297,7 +287,7 @@ I recommend a dedicated period of structured physiotherapy focused on propriocep
   - **[~6 weeks]** weight-bearing in a CAM boot, then commence physiotherapy  
   - Expected recovery **[~3–6 months]** (variable)  
 
-#### MAIN paragraph
+#### Main paragraph
 
 It was a pleasure to see **[PATIENT]** for review of persistent ankle symptoms. [PATIENT] reports ankle pain and instability, including morning pain and functional limitation, and wishes to proceed with operative management after consideration of timing and goals.  
 On examination, foot and ankle alignment is **[normal]** with full range of motion of the ankle and subtalar joint. There is severe lateral ligament laxity and anteromedial laxity, with the ability to partially sublux the talus anteriorly on the tibial mortise.  
@@ -312,24 +302,7 @@ We will proceed with organising surgery and postoperative rehabilitation as outl
 
 ### Sample 4（Post op：Acute / TAR 3 weeks）
 
-#### Diagnosis
 
-- Post-operative right total ankle replacement, **[~3 weeks]**  
-
-#### Plan
-
-- Wound care: remove anterior wound sutures today; continue local wound care  
-- Rehabilitation: commence/continue active range of motion exercises  
-- Weight-bearing: remain non-weight-bearing until **[~6 weeks]**  
-- Imaging: review at **[~6 weeks]** with X-ray; consider progression to WBAT in boot depending on radiographic and clinical status  
-
-#### MAIN paragraph
-
-It was a pleasure to see **[PATIENT]** today for a post-operative review, **[~3 weeks]** following a right total ankle replacement. The anterior wound sutures were removed today and the wound is satisfactory. [PATIENT] is performing active range of motion exercises. There are no red flags reported.
-
-#### Impression and recommendation
-
-In summary, [PATIENT] is progressing appropriately in the acute post-operative phase. I recommend continuing non-weight-bearing and range of motion exercises as outlined. I will review [PATIENT] at the **[~6-week]** mark with X-rays to determine readiness for progression to weight-bearing in a boot.
 
 ---
 
@@ -337,7 +310,7 @@ In summary, [PATIENT] is progressing appropriately in the acute post-operative p
 
 #### Diagnosis
 
-- Post-operative left total ankle replacement and gastrocnemius/Achilles lengthening procedure, **[~8 weeks]**  
+- **[~8 weeks]** post left total ankle replacement and gastrocnemius/Achilles lengthening, performed [DATE]
 - Neuropathic pain symptoms, likely related to the tibial nerve (working diagnosis)  
 
 #### Plan
@@ -347,7 +320,7 @@ In summary, [PATIENT] is progressing appropriately in the acute post-operative p
 - Imaging: weight-bearing X-ray of the left ankle today; repeat X-rays in **[~6 weeks]**  
 - Follow-up: review in **[~6 weeks]** to reassess symptoms, neurogenic pain, and radiographic progression  
 
-#### MAIN paragraph
+#### Main paragraph
 
 It was a pleasure to see **[PATIENT]** today for review of a left ankle replacement, **[~8 weeks]** post-operatively. [PATIENT] reports the ankle feels “pretty good” overall, with minimal mechanical ankle pain, but describes neuropathic pain characterised by shooting pain into the great toe and dysaesthetic sensations (including coldness and nocturnal symptoms).  
 On examination, the left foot shows mild colour difference compared to the contralateral side, with a small residual scab at the anterior wound. Range of motion is good (**[~10° dorsiflexion / ~40° plantarflexion]**), hindfoot alignment is neutral, swelling is controlled, and there is no focal tenderness around the ankle.  
@@ -363,17 +336,34 @@ In summary, [PATIENT] shows satisfactory mechanical recovery at **[~8 weeks]** p
 
 #### Diagnosis
 
-- Stable right total ankle replacement, **[~8 years]** post-operative  
+- **[~8 years]** post right total ankle replacement, performed [DATE], stable  
 - Residual hindfoot varus  
 - Right lateral forefoot discomfort likely footwear-related / varus moment exacerbation  
 
 #### Plan
+#### Diagnosis
 
+- **[~3 weeks]** post right total ankle replacement, performed [DATE]  
+
+#### Plan
+
+- Wound care: remove anterior wound sutures today; continue local wound care  
+- Rehabilitation: commence/continue active range of motion exercises  
+- Weight-bearing: remain non-weight-bearing until **[~6 weeks]**  
+- Imaging: review at **[~6 weeks]** with X-ray; consider progression to WBAT in boot depending on radiographic and clinical status  
+
+#### Main paragraph
+
+It was a pleasure to see **[PATIENT]** today for a post-operative review, **[~3 weeks]** following a right total ankle replacement. The anterior wound sutures were removed today and the wound is satisfactory. [PATIENT] is performing active range of motion exercises. There are no red flags reported.
+
+#### Impression and recommendation
+
+In summary, [PATIENT] is progressing appropriately in the acute post-operative phase. I recommend continuing non-weight-bearing and range of motion exercises as outlined. I will review [PATIENT] at the **[~6-week]** mark with X-rays to determine readiness for progression to weight-bearing in a boot.
 - Continue conservative management (footwear modification, orthoses as required)  
 - Imaging: repeat X-ray in **[~12 months]**  
 - Review: earlier review if pain worsens, swelling develops, or functional decline occurs  
 
-#### MAIN paragraph
+#### Main paragraph
 
 It was a pleasure to see **[PATIENT]** today for review of the right ankle, **[~8 years]** following a total ankle replacement. [PATIENT] reports right lateral forefoot discomfort aggravated by walking, which appears temporally related to new shoes that push the foot into varus; the insoles have been modified.  
 On examination, [PATIENT] has good ankle range of motion (**[~20° dorsiflexion / ~35° plantarflexion]**), no ankle tenderness or swelling, and mild hindfoot varus.  
@@ -402,7 +392,7 @@ In summary, [PATIENT]’s ankle replacement remains stable long term. The forefo
   - Expectations: recovery milestones (e.g., **[~6 weeks]**, **[~3 months]**, **[~6 months]**, **[~12 months]**)  
 - Next steps: provide consent form; organise **[imaging]**; schedule surgery after **[DATE]**; arrange rehabilitation plan **[LOCATION/HOSPITAL]**  
 
-#### MAIN paragraph
+#### Main paragraph
 
 It was a pleasure to see **[PATIENT]** for review. [PATIENT] has a background history of a right total ankle replacement and left flatfoot reconstruction and now presents with worsening left knee pain affecting gait and function.  
 On examination, gait is antalgic. Knee range of motion is **[~0–100°]** with mild varus alignment.  
@@ -418,7 +408,7 @@ In summary, [PATIENT] has symptomatic end-stage medial compartment osteoarthriti
 
 #### Diagnosis
 
-- Post-operative left total knee replacement, **[~2 weeks]**  
+- **[~2 weeks]** post left total knee replacement, performed [DATE]  
 
 #### Plan
 
@@ -427,7 +417,7 @@ In summary, [PATIENT] has symptomatic end-stage medial compartment osteoarthriti
 - Follow-up: review in **[~4 weeks]**  
 - Safety net: urgent review if fever, increasing redness/drainage, calf pain/swelling, escalating pain, or functional decline  
 
-#### MAIN paragraph
+#### Main paragraph
 
 It was a pleasure to see **[PATIENT]** for review following a recent left total knee replacement, **[~2 weeks]** post-operatively. [PATIENT] reports ongoing pain and is currently in rehabilitation, with concern that pain feels worse than the contralateral side did at a similar stage.  
 On examination, the wound is healing well with good alignment. Range of motion is improving with almost full extension and **[~100°]** flexion. There are no clinical signs of infection or other red flags. Postoperative X-rays obtained soon after surgery were satisfactory.
@@ -442,7 +432,7 @@ In summary, [PATIENT] is progressing appropriately at **[~2 weeks]** post TKR wi
 
 #### Diagnosis
 
-- Post-operative left total knee replacement, **[~6 weeks]**  
+- **[~6 weeks]** post left total knee replacement, performed [DATE]  
 - History of postoperative cellulitis, resolved (historical)  
 
 #### Plan
@@ -451,7 +441,7 @@ In summary, [PATIENT] is progressing appropriately at **[~2 weeks]** post TKR wi
 - Return to driving: permitted from **[~6 weeks]** post-op if safe and functional  
 - Follow-up: review in **[~2–3 months]**  
 
-#### MAIN paragraph
+#### Main paragraph
 
 It was a pleasure to see **[PATIENT]** today for review. [PATIENT] underwent a left total knee replacement **[~6 weeks]** ago. [PATIENT] has been walking well and is able to walk long distances, noting mild stiffness after prolonged sitting that improves with movement.  
 On examination, gait is normal. The knee extends fully with good quadriceps tone. There is no effusion and the surgical incision is well healed.  
@@ -481,7 +471,7 @@ In summary, [PATIENT] has satisfactory clinical and radiographic progress at **[
 - Medical workup: **[cardiology / general medical clearance]**; request relevant correspondence as indicated  
 - Postoperative pathway: early mobilisation; typically full weight-bearing; physiotherapy plan **[home program / fund]**  
 
-#### MAIN paragraph
+#### Main paragraph
 
 It was a pleasure to meet **[PATIENT]** today. [PATIENT] previously underwent a left total hip replacement in **[YEAR]**, which has remained successful and asymptomatic. [PATIENT] now presents with right hip pain predominantly in the groin, aggravated by turning and activity, with functional limitation sufficient to consider surgery.  
 On examination, [PATIENT] demonstrates a limp with walking. Hip examination is consistent with established osteoarthritis, with irritability and restricted movement.  
@@ -497,7 +487,7 @@ In summary, [PATIENT] has symptomatic right hip osteoarthritis with significant 
 
 #### Diagnosis
 
-- Post-operative right total hip replacement, **[~2 weeks]**  
+- **[~2 weeks]** post right total hip replacement, performed [DATE]  
 
 #### Plan
 
@@ -506,7 +496,7 @@ In summary, [PATIENT] has symptomatic right hip osteoarthritis with significant 
 - Imaging: review at **[~6 weeks]** with X-ray  
 - Follow-up: **[~6 weeks]** post-op review  
 
-#### MAIN paragraph
+#### Main paragraph
 
 It was a pleasure to see **[PATIENT]** for a post-operative wound check, **[~2 weeks]** following a right total hip replacement. [PATIENT] is doing well and is being discharged home from rehabilitation today. The wound has healed well. A Doppler study was negative for DVT.
 
@@ -537,7 +527,7 @@ In summary, [PATIENT] is recovering well in the acute post-operative period foll
 - Follow-up: review imaging results and finalise management plan in complex clinic  
 - Risk management: surgical caution given medical background; balance disease progression and infection/thrombotic risk  
 
-#### MAIN paragraph
+#### Main paragraph
 
 It was a pleasure to see **[PATIENT]** today in the complex clinic for assessment of progressive knee pain and functional limitation. [PATIENT] has a significant medical background including **[immunosuppression / transplant / anticoagulation]**. Symptoms are activity-related, with the left knee typically the clinical priority.  
 On examination, gait is antalgic. The left knee shows reduced range of motion (**[~5–115°]**) with patellofemoral crepitus and medial pseudolaxity consistent with medial compartment disease. The right knee demonstrates valgus alignment with functional limitation.  
@@ -567,7 +557,7 @@ In summary, [PATIENT] has multi-factorial bilateral knee pathology with malalign
   - Occupational therapy input  
 - Safety net: review if neurological deficit progresses, pain escalates, or functional capacity declines  
 
-#### MAIN paragraph
+#### Main paragraph
 
 It was a pleasure to see **[PATIENT]** today to assist with an application for functional support and home modifications. [PATIENT] ambulated with **[two crutches]** and reports significant mobility limitation and pain. [PATIENT] has a complex surgical history including a right total hip replacement complicated by infection requiring multiple surgeries, followed by right hip excision arthroplasty and subsequent femoral osteomyelitis, now resolved. [PATIENT] has not required further hip surgery since **[YEAR]**.  
 On examination, [PATIENT] demonstrates a positive Trendelenburg gait, significant right leg shortening, and instability. Hip examination is consistent with an excision arthroplasty state. The left hip and knee demonstrate preserved range of motion without focal pain. Straight leg raise is **[positive/negative]** for radicular symptoms.  
@@ -593,7 +583,7 @@ I recommend specialist assessment of spinal symptoms and lumbar imaging as outli
 - Review in **[~6 months]**  
 - If symptoms significantly deteriorate, revisit operative options; coordinate perioperative medication management **[DMARD/antiplatelet]** with treating teams  
 
-#### MAIN paragraph
+#### Main paragraph
 
 It was a pleasure to see **[PATIENT]** today for assessment of right heel pain. [PATIENT] has a background history of multiple orthopaedic procedures and inflammatory arthritis managed with **[medications]**, currently well controlled. Over the last **[~12 months]**, the right Achilles insertion has become increasingly symptomatic, though not yet severely restrictive, and [PATIENT] has partially improved with footwear modification.  
 On examination, there is swelling and tenderness at the Achilles insertion.  
@@ -609,7 +599,7 @@ In summary, [PATIENT]’s presentation is consistent with insertional Achilles t
 
 #### Diagnosis
 
-- Left Achilles tendon rupture (delayed diagnosis)  
+- Left Achilles tendon rupture, sustained [DATE] (delayed diagnosis)
 - Left talar bone bruising (likely impingement related to injury mechanism)  
 - Relevant comorbidity increasing infection risk **[as applicable]**  
 
@@ -621,7 +611,7 @@ In summary, [PATIENT]’s presentation is consistent with insertional Achilles t
 - IC (risk and benefit): infection, DVT/PE, nerve injury, wound complications, re-rupture, need for further surgery  
 - Work planning: arrange **[~6 weeks]** off work post-operatively  
 
-#### MAIN paragraph
+#### Main paragraph
 
 It was a pleasure to see **[PATIENT]** today for assessment of left ankle pain following an injury **[~3 months]** ago involving hyperdorsiflexion. [PATIENT] reports posterior ankle pain radiating into the calf, worse with walking and improved with rest, with incomplete improvement despite use of a CAM boot.  
 On examination, there is a positive Thompson test and a palpable defect in the Achilles tendon.  
@@ -649,7 +639,7 @@ In summary, [PATIENT] has a complete Achilles tendon rupture with delayed diagno
 - Recovery: post-op shoe or boot; adherence to post-op instructions for optimal healing  
 - Next steps: provide consent forms; schedule surgery at **[HOSPITAL/CLINIC]** depending on availability and patient preference  
 
-#### MAIN paragraph
+#### Main paragraph
 
 It was a pleasure to see **[PATIENT]** today for an initial consult regarding bunion symptoms and difficulty with footwear. [PATIENT] reports progressive pain and functional limitation, including nocturnal neuropathic-type discomfort and difficulty finding comfortable shoes.  
 On examination, there is severe hallux valgus with a palpable medial bony prominence at the 1st MTP joint. The second toe is dislocated with fixed deformity and tight surrounding soft tissues. Distal neurovascular status is grossly intact.  
@@ -665,7 +655,7 @@ In summary, [PATIENT] has a complex forefoot deformity consistent with hallux va
 
 #### Diagnosis
 
-- Post-operative bilateral hallux valgus and crossover/second toe correction, **[~2 weeks]**  
+- **[~2 weeks]** post bilateral hallux valgus and crossover/second toe correction, performed [DATE]  
 
 #### Plan
 
@@ -674,7 +664,7 @@ In summary, [PATIENT] has a complex forefoot deformity consistent with hallux va
 - Imaging: repeat X-ray at **[~4 weeks]**  
 - Follow-up: review in **[~4 weeks]**  
 
-#### MAIN paragraph
+#### Main paragraph
 
 It was a pleasure to see **[PATIENT]** today for review **[~2 weeks]** after bilateral hallux valgus and crossover second toe correction. [PATIENT] reports minimal pain and no neurological complications. Wounds have healed nicely and sutures were removed. Swelling is well controlled and overall foot and toe positioning is satisfactory.
 
@@ -701,7 +691,7 @@ In summary, [PATIENT] is progressing well in the early postoperative phase. I re
   - Extension osteotomy of first/second rays to address forefoot pronation/plantarflexion component  
 - Follow-up: review once imaging is complete to finalise operative vs non-operative strategy and provide a quote if required  
 
-#### MAIN paragraph
+#### Main paragraph
 
 It was a pleasure to see **[PATIENT]** today for review of forefoot symptoms and deformity. [PATIENT] reports a history of intermittent gout and progressive functional difficulty.  
 On examination, there is a large soft tissue swelling under the first metatarsal region consistent with gouty tophus, along with a forefoot-driven varus deformity and bilateral fourth curly toes. There is relative plantarflexion of the first and second rays contributing to a varus moment on weight-bearing.  
@@ -730,7 +720,7 @@ In summary, [PATIENT] has a combined medical (gouty tophus) and mechanical (fore
 - Follow-up: review in **[~2 weeks]** to discuss CT results and formulate further management  
 - Contingency: consider arthroscopic debridement if recurrent impingement confirmed and symptoms persist; reserve subtalar fusion as salvage procedure  
 
-#### MAIN paragraph
+#### Main paragraph
 
 It was a pleasure to see **[PATIENT]** for review **[~6 weeks]** following a right lateral process of talus osteotomy. [PATIENT] reports the ankle is sore after work.  
 On examination, gait is normal. There is mild ongoing inflammation along the lateral ankle scar. Ankle range of motion is symmetrical. There is spasm of the peroneal tendons.  
