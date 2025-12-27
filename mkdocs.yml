@@ -26,6 +26,7 @@ nav:
       - 臨床トップ: clinical/index.md
       - 共通アルゴリズム: clinical/algorithm.md
       - 外来の型: clinical/outpatient.md
+      - 外来英語フレーズ集: clinical/outpatient_phrasebook.md
       - 問診・インターラクションの型: clinical/interaction.md
       - 手術記録の型: clinical/surgery_note.md
   - 研究:
