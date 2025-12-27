@@ -24,16 +24,56 @@
 
 ### Diagnosis
 
+**構造**: 診断名を簡潔に列挙します。
+
+**よく使う単語・フレーズ**:
+- chronic | acute | subacute | recurrent
+- plantar fasciitis | Achilles tendinopathy | ankle instability | hallux valgus | tibialis posterior tendon dysfunction
+- stage I / II / III
+- bilateral | unilateral | left | right
+- refractory to conservative management
+- secondary to [CAUSE]
+
+**テンプレート例**:
 - [DIAGNOSIS 1]  
 - [DIAGNOSIS 2]（必要に応じて）  
 
+---
+
 ### Plan
 
+**構造**: 検査、保存療法、次回予定、分岐（If-Then）を明示します。
+
+**よく使う単語・フレーズ**:
+
+*Investigation*:
+- X-ray | MRI | CT | ultrasound | weightbearing CT
+- to assess | to evaluate | to confirm | to rule out
+- bone stock | cartilage integrity | ligament injury | alignment
+
+*Conservative management*:
+- physiotherapy | orthotics | heel cups | night splints | CAM boot
+- NSAIDs | analgesia | injection (corticosteroid / PRP)
+- activity modification | offloading | stretching program
+- for [DURATION: 3 months / 6 weeks / until next review]
+
+*Follow-up*:
+- in [TIMEFRAME: 3 months / 6 weeks / after investigations complete]
+- to review symptoms | to assess progress | to discuss next steps
+
+*If-Then branching*:
+- If symptoms persist → consider [injection / surgery / further imaging]
+- If improvement → continue conservative | wean from support | return PRN
+- If deterioration → urgent review | modify treatment
+
+**テンプレート例**:
 - 検査：[INVESTIGATION]（目的：仮説の支持／否定）  
 - 保存： [CONSERVATIVE]（期限：`[DURATION]`）  
 - 次回： `[TIMEFRAME]` に再診し結果レビュー  
 - If A（例：症状残存／所見陽性／画像で○○）→ Then B（追加検査／注射／手術検討）  
 - If C（例：改善傾向）→ Then D（負荷調整／リハ継続／PRN）  
+
+---
 
 #### （補足）Temporarily の位置づけ
 
@@ -44,14 +84,83 @@
 - Follow up in my clinic after investigations are complete (approx. **[~X months]**).  
 - Advised to continue **[physiotherapy / shockwave / heel cups / night splints]** for **[X months]** while awaiting investigations.  
 
+---
+
 ### MAIN paragraph
+
+**構造**: 挨拶→主訴（機能障害として）→発症と経過→既治療→身体所見→検査
+
+**よく使う単語・フレーズ**:
+
+*Opening*:
+- It was a pleasure to see [PATIENT]
+- Thank you for referring [PATIENT]
+- [PATIENT] returns today for review
+
+*Chief complaint (functional)*:
+- reports difficulty with | is unable to | experiences pain when
+- walking distance limited to [DISTANCE]
+- stairs are difficult | cannot stand for prolonged periods
+
+*Onset*:
+- began [TIMEFRAME] ago | following [INJURY / ACTIVITY]
+- insidious onset | traumatic onset | gradual progression
+
+*Course*:
+- progressive | stable | intermittent | improving | worsening
+- exacerbated by | relieved by
+
+*Prior management*:
+- has tried | has undergone | has completed
+- physiotherapy | orthotics | injections | NSAIDs | immobilization
+- with good / partial / minimal / no relief
+
+*Examination*:
+- On examination | Inspection reveals | Palpation demonstrates
+- tenderness over | swelling is present | range of motion is limited
+- neurovascularly intact | alignment is neutral / varus / valgus
+- [TEST NAME] is positive / negative
+
+*Investigations*:
+- Radiographs demonstrate | MRI shows | CT reveals
+- joint space narrowing | osteophytes | subchondral sclerosis
+- tendon tear | cartilage defect | bone marrow edema
+
+**テンプレート例**:
 
 It was a pleasure to see **[PATIENT]** today for review of **[REGION/COMPLAINT]**.  
 [PATIENT] reports **[CHIEF COMPLAINT AS FUNCTION]**, which began **[ONSET/INJURY BASIS]** and has followed **[TIME COURSE]**. Prior management has included **[TREATMENTS TRIED]**, with **[RESPONSE]**. On examination, **[KEY EXAM FINDINGS]**. Investigations **[IMAGING/TESTS REVIEWED OR REQUESTED]**.
 
+---
+
 ### Impression and recommendation
 
-In summary, [PATIENT]’s presentation is consistent with **[IMPRESSION]**. The key differential diagnoses include **[DIFFERENTIALS]**.  
+**構造**: 診断のまとめ→鑑別診断→推奨事項→次回予定
+
+**よく使う単語・フレーズ**:
+
+*Summary*:
+- In summary | Overall | In conclusion
+- the presentation is consistent with | most likely represents
+- diagnostic features include
+
+*Differential*:
+- The key differential diagnoses include
+- Other considerations are
+- We have ruled out | We need to exclude
+
+*Recommendation*:
+- I recommend | The plan is to | We will proceed with
+- conservative management | surgical intervention | further investigation
+- with close monitoring | as tolerated | until symptoms resolve
+
+*Follow-up goal*:
+- to reassess | to review progress | to finalize the plan
+- to discuss surgical options | to ensure adequate healing
+
+**テンプレート例**:
+
+In summary, [PATIENT]'s presentation is consistent with **[IMPRESSION]**. The key differential diagnoses include **[DIFFERENTIALS]**.  
 I recommend **[RECOMMENDATION]**, and I will review [PATIENT] in **[FOLLOW-UP TIMEFRAME]** to **[GOAL OF REVIEW]**.
 
 ---
