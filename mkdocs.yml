@@ -17,7 +17,6 @@ theme:
 
 nav:
   - Index: index.md
-  - 運用・公開ポリシー: policy.md
   - 臨床:
       - 臨床トップ: clinical/index.md
       - 共通アルゴリズム: clinical/algorithm.md
@@ -27,6 +26,7 @@ nav:
   - 研究:
       - 研究トップ: research/index.md
       - 業績: research/achievements.md
+  - 運用・公開ポリシー: policy.md
 
 markdown_extensions:
   - admonition
