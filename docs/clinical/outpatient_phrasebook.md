@@ -1,6 +1,6 @@
 # Outpatient Phrasebook (English-only)
 
-This page provides reusable English phrases for outpatient orthopaedic practice and referral letters. Replace placeholders such as `[PATIENT]`, `[SIDE]`, `[DIAGNOSIS]`, `[DURATION]`, `[IMAGING]`, and `[FOLLOW-UP]` as appropriate. Do not include identifying details.
+This page collects useful English phrases for outpatient orthopaedic notes and referral letters. The goal is to build a personal phrasebook that you can draw on repeatedly, helping you write clear, professional letters more efficiently. Placeholders like `[PATIENT]`, `[SIDE]`, `[DIAGNOSIS]`, `[DURATION]`, `[IMAGING]`, and `[FOLLOW-UP]` can be replaced with specific details. Remember to avoid including any identifying information when sharing examples.
 
 ## Quick vocabulary (for repeated writing)
 
