@@ -1,5 +1,7 @@
 # 業績（公開）
 
+[ResearchGate Profile](https://www.researchgate.net/profile/Takahisa-Ogawa/research)
+
 ## 原著論文
 
 - Ogawa T, Aoki T, Shirasawa S. Effect of hip fracture surgery within 24 hours on short-term mobility. *Journal of Orthopaedic Science*. 2019;24(3):469-473.
