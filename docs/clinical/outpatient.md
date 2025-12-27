@@ -16,9 +16,9 @@
 - Planは必ず「次回何をするか」を含み、可能な限り**次回で決着がつく設計**に寄せます。
 - レター本文（Main paragraph）は「読者が前提知識なしに追える」よう、要点のみを因果順に配置します。
 
-## 1. レターテンプレ（共通）
+## 1. レターの型（共通）
 
-以下は、外来レターを最短で作成するための共通骨格です。`New referral`と`Follow-up`のいずれでも、まずはこの枠で書き、必要に応じてState別テンプレ（後述）へ寄せます。
+以下は、外来レターを最短で作成するための共通骨格です。`New referral`と`Follow-up`のいずれでも、まずはこの枠で書き、必要に応じてState別の型（後述）へ寄せます。
 
 ---
 
@@ -35,7 +35,7 @@
 - secondary to [CAUSE]
 - injury occurred [DATE] | sustained [DATE]
 
-**テンプレート例**:
+**例**:
 - [DIAGNOSIS 1]  
 - [DIAGNOSIS 2]（必要に応じて）  
 
@@ -67,7 +67,7 @@
 - If improvement → continue conservative | wean from support | return PRN
 - If deterioration → urgent review | modify treatment
 
-**テンプレート例**:
+**例**:
 - 検査：[INVESTIGATION]（目的：仮説の支持／否定）  
 - 保存： [CONSERVATIVE]（期限：`[DURATION]`）  
 - 次回： `[TIMEFRAME]` に再診し結果レビュー  
@@ -116,7 +116,7 @@
 - joint space narrowing | osteophytes | subchondral sclerosis
 - tendon tear | cartilage defect | bone marrow edema
 
-**テンプレート例**:
+**例**:
 
 It was a pleasure to see **[PATIENT]** today for review of **[REGION/COMPLAINT]**.  
 [PATIENT] reports **[CHIEF COMPLAINT AS FUNCTION]**, which began **[ONSET/INJURY BASIS]** and has followed **[TIME COURSE]**. Prior management has included **[TREATMENTS TRIED]**, with **[RESPONSE]**. On examination, **[KEY EXAM FINDINGS]**. Investigations **[IMAGING/TESTS REVIEWED OR REQUESTED]**.
@@ -148,14 +148,14 @@ It was a pleasure to see **[PATIENT]** today for review of **[REGION/COMPLAINT]*
 - to reassess | to review progress | to finalize the plan
 - to discuss surgical options | to ensure adequate healing
 
-**テンプレート例**:
+**例**:
 
 In summary, [PATIENT]'s presentation is consistent with **[IMPRESSION]**. The key differential diagnoses include **[DIFFERENTIALS]**.  
 I recommend **[RECOMMENDATION]**, and I will review [PATIENT] in **[FOLLOW-UP TIMEFRAME]** to **[GOAL OF REVIEW]**.
 
 ---
 
-## 2. State別テンプレ（最小差分）
+## 2. State別の型（最小差分）
 
 先生の運用フロー（New referral → Conservative / Consider surgery → Follow-up）を、上記4枠の中で破綻なく回すため、Stateごとの“差分”のみを示す。
 
