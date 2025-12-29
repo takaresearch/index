@@ -163,29 +163,120 @@ I recommend **[RECOMMENDATION]**, and I will review [PATIENT] in **[FOLLOW-UP TI
 
 - **Diagnosis**: `Working diagnosis`（暫定）＋ `Differential`（上位）  
 - **Plan**: 検査依頼（目的明記）＋「検査完了後に再診」＋待機期間中の保存療法（期限つき；= Temporarily）  
-- **Impression and recommendation**: “暫定”であることを明示し、結果で分岐することを文章で固定する  
+- **Impression and recommendation**: "暫定"であることを明示し、結果で分岐することを文章で固定する
+
+**具体例（Sample 1 より）**:
+
+> **Diagnosis**  
+> - Chronic bilateral plantar fasciitis (L>R), refractory to standard conservative management  
+> - Differential diagnosis for medial heel pain includes Baxter's nerve entrapment  
+>
+> **Plan**  
+> - Follow up in my clinic after investigations are complete (approx. **[~4 months]**).  
+> - Advised to continue physiotherapy, shockwave therapy, heel cups, and night splints for **[~4 months]** while awaiting investigations.  
+> - Investigations: **[INVESTIGATIONS]** (purpose: confirm plantar fascia pathology; assess for alternative causes of medial heel pain)  
+>
+> **Impression and recommendation（結語）**  
+> I recommend completion of the requested investigations and continuation of the above conservative measures while awaiting results. I will review [PATIENT] after investigations are complete to **finalise management based on findings and clinical response**.  
 
 ### 2-2. New referral（Conservative）
 
 - **Diagnosis**: 確定診断＋重症度／ステージ  
-- **Plan**: 保存療法を期限つきで提示し、成功／不成功の評価軸を If–Then に落とす  
+- **Plan**: 保存療法を期限つきで提示し、成功／不成功の評価軸を If–Then に落とす
+
+**具体例（Sample 14 より）**:
+
+> **Diagnosis**  
+> - Insertional Achilles tendinopathy with calcaneal spur / insertional swelling  
+>
+> **Plan**  
+> - Continue non-operative management (footwear modification, activity modification, physiotherapy as appropriate)  
+> - Review in **[~6 months]**  
+> - **If symptoms significantly deteriorate** → revisit operative options; coordinate perioperative medication management with treating teams  
+>
+> **Impression and recommendation（結語）**  
+> Given the current symptom severity and elevated perioperative considerations, I recommend continued non-operative management and review in **[~6 months]**, with **earlier review if symptoms worsen**.  
 
 ### 2-3. New referral（Consider surgery）
 
 - **Diagnosis**: 確定診断  
-- **Plan**: IC（risk/benefit + recovery）を箇条書きで明示し、患者が“考える期間”と次アクション（連絡して日程調整）を固定する  
+- **Plan**: IC（risk/benefit + recovery）を箇条書きで明示し、患者が"考える期間"と次アクション（連絡して日程調整）を固定する
+
+**具体例（Sample 3 より）**:
+
+> **Diagnosis**  
+> - Right ankle lateral ligament and anteromedial ligament complex laxity  
+>
+> **Plan**  
+> - Plan: Right ankle arthroscopy and lateral and medial ligament stabilisation  
+> - **IC (risk and benefit)**:  
+>   - Benefits: improved stability, symptom reduction, functional improvement  
+>   - Risks: nerve injury, infection, stiffness, recurrent instability, DVT/PE, anaesthetic risks  
+>   - Natural history: untreated instability increases risk of recurrent episodes and may increase risk of cartilage damage and long-term arthritis  
+> - **Postoperative recovery**:  
+>   - **[~6 weeks]** weight-bearing in a CAM boot, then commence physiotherapy  
+>   - Expected recovery **[~3–6 months]** (variable)  
+>
+> **Impression and recommendation（結語）**  
+> I believe [PATIENT] would benefit from ankle arthroscopy and lateral and medial ligament stabilisation. I have discussed the procedure and the specific risks, including nerve injury and recurrent instability, as well as the expected recovery pathway. **We will proceed with organising surgery and postoperative rehabilitation as outlined.**  
 
 ### 2-4. Follow-up（Post conservative）
 
 - **Diagnosis**: 既診断＋経過（改善／不変／増悪のいずれか）  
 - **Plan**:  
   - Success → PRN（フォロー終了条件を明示）  
-  - Failure → Consider surgery（必要なら検査追加→IC）  
+  - Failure → Consider surgery（必要なら検査追加→IC）
+
+**具体例（Sample 2 より）**:
+
+> **Diagnosis**  
+> - Chronic right ankle instability and pain, secondary to inversion injuries in **[MONTH YEAR]** and **[MONTH YEAR]**  
+> - Secondary hindfoot varus and lateral ankle pain due to altered gait  
+>
+> **Plan（Failure → Consider surgery の分岐を含む）**  
+> - Conservative management with orthotics (including carbon shank) has been trialled  
+> - Continue home exercise program, focusing on proprioception and strengthening  
+> - **If symptoms persist / significantly impact quality of life**:  
+>   - Consider 1st MTP joint fusion (non-weight bearing for **[~6 weeks]**, total recovery up to **[~1 year]**)  
+>   - If symptoms of pinching become frequent, consider ankle arthroscopy to debride scar tissue  
+> - **Review**:  
+>   - [PATIENT] will contact the office to schedule surgery if they decide to proceed  
+>   - If symptoms worsen or fail to improve by **[MONTH YEAR]**, return for review  
+>
+> **Impression and recommendation（結語）**  
+> While many patients improve with structured physiotherapy, [PATIENT] remains at higher risk of requiring surgery if instability and symptoms persist. I recommend a dedicated period of structured physiotherapy focused on proprioception and strength, with gradual functional re-introduction. I will review [PATIENT] again in **[~3–4 months]** to assess progress and **determine whether further intervention is warranted**.  
 
 ### 2-5. Follow-up（Post op）
 
 - **Diagnosis**: 術式＋術後週数  
-- **Plan**: 荷重・固定・リハ・画像フォロー・次回受診を、術後プロトコルとして固定する  
+- **Plan**: 荷重・固定・リハ・画像フォロー・次回受診を、術後プロトコルとして固定する
+
+**具体例 A：Acute phase（Sample 4 より / TAR 3 weeks）**:
+
+> **Diagnosis**  
+> - **[~3 weeks]** post right total ankle replacement, performed [DATE]  
+>
+> **Plan**  
+> - Wound care: remove anterior wound sutures today; continue local wound care  
+> - Rehabilitation: commence/continue active range of motion exercises  
+> - Weight-bearing: remain non-weight-bearing until **[~6 weeks]**  
+> - Imaging: review at **[~6 weeks]** with X-ray; consider progression to WBAT in boot depending on radiographic and clinical status  
+>
+> **Impression and recommendation（結語）**  
+> [PATIENT] is progressing appropriately in the acute post-operative phase. I recommend continuing non-weight-bearing and range of motion exercises as outlined. I will review [PATIENT] at the **[~6-week]** mark with X-rays to determine readiness for progression to weight-bearing in a boot.
+
+**具体例 B：Sub-acute phase（Sample 9 より / TKR 6 weeks）**:
+
+> **Diagnosis**  
+> - **[~6 weeks]** post left total knee replacement, performed [DATE]  
+>
+> **Plan**  
+> - Continue range of motion and strengthening program  
+> - Return to driving: permitted from **[~6 weeks]** post-op if safe and functional  
+> - Follow-up: review in **[~2–3 months]**  
+>
+> **Impression and recommendation（結語）**  
+> [PATIENT] has satisfactory clinical and radiographic progress at **[~6 weeks]** post TKR. I recommend ongoing range of motion work and will review [PATIENT] again in a few months.  
 
 ## 3. 次回アクション設計（AならB、CならD）
 
