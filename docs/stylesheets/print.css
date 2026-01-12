@@ -1,0 +1,259 @@
+/* Print Styles - Optimized for clean printing */
+
+/* Print button - hide when printing */
+@media print {
+  .print-button-container {
+    display: none !important;
+  }
+}
+
+/* Screen styles for print button */
+@media screen {
+  .print-button-container {
+    position: sticky;
+    top: 70px;
+    right: 20px;
+    float: right;
+    z-index: 100;
+    margin-bottom: 20px;
+  }
+  
+  .print-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background-color: #1565c0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .print-button:hover {
+    background-color: #0d47a1;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transform: translateY(-1px);
+  }
+  
+  .print-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  .print-icon {
+    font-size: 18px;
+  }
+}
+
+/* Print media styles */
+@media print {
+  /* Page setup */
+  @page {
+    margin: 0.3in;
+    size: A4 portrait;
+  }
+  
+  /* Hide Material theme elements */
+  .md-header,
+  .md-footer,
+  .md-sidebar,
+  .md-sidebar--primary,
+  .md-sidebar--secondary,
+  .md-nav,
+  .md-tabs,
+  .md-search,
+  header,
+  nav,
+  footer,
+  .headerlink,
+  .md-top,
+  .md-source,
+  .md-footer-meta {
+    display: none !important;
+  }
+  
+  /* Main content styling */
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-size: 10pt;
+    line-height: 1.3;
+    color: #000;
+    background: #fff;
+    font-family: Arial, "Yu Gothic", "Meiryo", sans-serif;
+  }
+  
+  .md-content,
+  .md-content__inner {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  /* Force black and white */
+  * {
+    color: #000 !important;
+    background: #fff !important;
+    border-color: #000 !important;
+    box-shadow: none !important;
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 16pt;
+    font-weight: bold;
+    margin-top: 12pt;
+    margin-bottom: 8pt;
+    page-break-after: avoid;
+  }
+  
+  h2 {
+    font-size: 14pt;
+    font-weight: bold;
+    margin-top: 10pt;
+    margin-bottom: 6pt;
+    page-break-after: avoid;
+    border-bottom: 1pt solid #000 !important;
+    padding-bottom: 2pt;
+  }
+  
+  h3 {
+    font-size: 12pt;
+    font-weight: bold;
+    margin-top: 8pt;
+    margin-bottom: 4pt;
+    page-break-after: avoid;
+  }
+  
+  h4 {
+    font-size: 11pt;
+    font-weight: bold;
+    margin-top: 6pt;
+    margin-bottom: 3pt;
+  }
+  
+  /* Paragraphs and text */
+  p {
+    margin: 4pt 0;
+    text-align: left;
+    orphans: 3;
+    widows: 3;
+  }
+  
+  /* Lists */
+  ul, ol {
+    margin: 6pt 0;
+    padding-left: 15pt;
+    page-break-inside: avoid;
+  }
+  
+  li {
+    margin: 2pt 0;
+    line-height: 1.3;
+  }
+  
+  /* Tone indicators - make smaller but keep visible */
+  em {
+    font-size: 8pt;
+    font-style: italic;
+    color: #333 !important;
+  }
+  
+  /* Code */
+  code {
+    font-family: "Courier New", monospace;
+    font-size: 9pt;
+    background-color: #f5f5f5 !important;
+    color: #000 !important;
+    padding: 1pt 2pt;
+    border: 0.5pt solid #ccc !important;
+  }
+  
+  pre {
+    font-family: "Courier New", monospace;
+    font-size: 9pt;
+    background-color: #f5f5f5 !important;
+    padding: 4pt;
+    margin: 4pt 0;
+    border: 0.5pt solid #ccc !important;
+    page-break-inside: avoid;
+  }
+  
+  /* Blockquotes */
+  blockquote {
+    margin: 4pt 0;
+    padding-left: 10pt;
+    border-left: 2pt solid #000 !important;
+    page-break-inside: avoid;
+  }
+  
+  /* Horizontal rules */
+  hr {
+    margin: 8pt 0;
+    border: none;
+    border-top: 1pt solid #000 !important;
+    page-break-after: avoid;
+  }
+  
+  /* Tables */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 4pt 0;
+    font-size: 9pt;
+    page-break-inside: avoid;
+  }
+  
+  th, td {
+    border: 1pt solid #000 !important;
+    padding: 2pt 4pt;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #e0e0e0 !important;
+    font-weight: bold;
+  }
+  
+  /* Links - show URL for important links */
+  a {
+    color: #000 !important;
+    text-decoration: underline;
+  }
+  
+  /* Remove link underlines for internal navigation */
+  a.headerlink {
+    display: none;
+  }
+  
+  /* Page breaks */
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+  
+  ul, ol, blockquote, pre, table {
+    page-break-inside: avoid;
+  }
+  
+  /* Avoid page break after first line of paragraph */
+  p {
+    page-break-inside: avoid;
+  }
+  
+  /* Images */
+  img {
+    max-width: 100%;
+    page-break-inside: avoid;
+  }
+}

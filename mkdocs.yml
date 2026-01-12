@@ -7,6 +7,10 @@ repo_name: ""
 theme:
   name: material
   language: ja
+  palette:
+    scheme: default
+    primary: indigo
+    accent: indigo
   features:
     - navigation.tabs
     - navigation.sections
@@ -14,6 +18,12 @@ theme:
     - toc.follow
     - search.suggest
     - search.highlight
+
+extra_css:
+  - stylesheets/print.css
+
+extra_javascript:
+  - javascripts/print-button.js
 
 extra:
   analytics:
