@@ -7,14 +7,11 @@
 3. **Main paragraph**（"It was a pleasure to see …" から開始）  
 4. **Impression and recommendation**  
 
-加えて、患者名は常に **`[PATIENT]`** とし、症例を特定できる要素（日時・施設・地域・職業など）はプレースホルダ（例：`[DATE]`, `[MONTH]`, `[OCCUPATION]`）で管理します。
-
 ## 0. 原則
 
-- **診断とプランは常に同じアルゴリズム**（`clinical/algorithm.md`）で回します。
 - **レターの冒頭は Diagnosis と Plan**であり、結論を先に提示します（情報の羅列を目的にしません）。
 - Planは必ず「次回何をするか」を含み、可能な限り**次回で決着がつく設計**に寄せます。
-- レター本文（Main paragraph）は「読者が前提知識なしに追える」よう、要点のみを因果順に配置します。
+- レター本文（Main paragraph）は **「読者が前提知識なしに追える」** よう、要点のみを因果順に配置します。
 
 ## 1. レターの型（共通）
 
@@ -303,7 +300,7 @@ I recommend **[RECOMMENDATION]**, and I will review [PATIENT] in **[FOLLOW-UP TI
 - Chronic bilateral plantar fasciitis (L>R), refractory to standard conservative management  
 - Differential diagnosis for medial heel pain includes Baxter’s nerve entrapment  
 - Palpable dorsal left foot mass consistent with a ganglion cyst  
-
+０
 #### Plan
 
 - Follow up in my clinic after investigations are complete (approx. **[~4 months]**).  
