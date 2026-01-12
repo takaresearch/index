@@ -1,4 +1,4 @@
-site_name: Foot and Ankle Note Taka
+site_name: TAKA vs FELLOWSHIP
 site_description: 臨床および研究に関する記録（公開可能な範囲）
 site_author: ""
 repo_url: ""
@@ -27,6 +27,7 @@ nav:
       - 共通アルゴリズム: clinical/algorithm.md
       - 外来の型: clinical/outpatient.md
       - 外来英語フレーズ集: clinical/outpatient_phrasebook.md
+      - 会話フレーズ集: clinical/conversation_phrases.md
       - 問診・インターラクションの型: clinical/interaction.md
       - 手術記録の型: clinical/surgery_note.md
   - 研究:
