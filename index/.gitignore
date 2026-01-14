@@ -1,0 +1,19 @@
+## Python / MkDocs
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+## MkDocs build output
+site/
+
+## OS / Editor
+.DS_Store
+.idea/
+.vscode/
+
+## Private (NOT tracked, NOT published)
+private/
+
+

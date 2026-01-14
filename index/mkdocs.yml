@@ -1,0 +1,69 @@
+site_name: Foot and Ankle Pathology Reference
+site_description: Clinical reference for foot and ankle pathologies
+site_author: ""
+repo_url: ""
+repo_name: ""
+
+theme:
+  name: material
+  language: en
+  palette:
+    scheme: default
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.integrate
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - PATHOLOGY:
+      - Overview: pathology/index.md
+      - Hindfoot:
+          - Introduction: pathology/hindfoot/index.md
+          - 1. Ankle Osteoarthritis:
+              - Non-Surgery: pathology/hindfoot/ankle-osteoarthritis/non-surgery.md
+              - Surgery: pathology/hindfoot/ankle-osteoarthritis/surgery.md
+          - 2. Osteochondral Defect (OCD):
+              - Non-Surgery: pathology/hindfoot/osteochondral-defect/non-surgery.md
+              - Surgery: pathology/hindfoot/osteochondral-defect/surgery.md
+          - 3. Achilles Tendinopathy:
+              - Non-Surgery: pathology/hindfoot/achilles-tendinopathy/non-surgery.md
+              - Surgery: pathology/hindfoot/achilles-tendinopathy/surgery.md
+          - 4. Ankle Instability:
+              - Non-Surgery: pathology/hindfoot/ankle-instability/non-surgery.md
+              - Surgery: pathology/hindfoot/ankle-instability/surgery.md
+      - Midfoot:
+          - Introduction: pathology/midfoot/index.md
+          - 1. Flatfoot (PTTD):
+              - Non-Surgery: pathology/midfoot/flatfoot-pttd/non-surgery.md
+              - Surgery: pathology/midfoot/flatfoot-pttd/surgery.md
+          - 2. Lisfranc Injury:
+              - Non-Surgery: pathology/midfoot/lisfranc-injury/non-surgery.md
+              - Surgery: pathology/midfoot/lisfranc-injury/surgery.md
+      - Forefoot:
+          - Introduction: pathology/forefoot/index.md
+          - 1. Hallux Valgus:
+              - Non-Surgery: pathology/forefoot/hallux-valgus/non-surgery.md
+              - Surgery: pathology/forefoot/hallux-valgus/surgery.md
+          - 2. Hallux Rigidus:
+              - Non-Surgery: pathology/forefoot/hallux-rigidus/non-surgery.md
+              - Surgery: pathology/forefoot/hallux-rigidus/surgery.md
+          - 3. Morton's Neuroma:
+              - Non-Surgery: pathology/forefoot/morton-neuroma/non-surgery.md
+              - Surgery: pathology/forefoot/morton-neuroma/surgery.md
+          - 4. Metatarsalgia:
+              - Non-Surgery: pathology/forefoot/metatarsalgia/non-surgery.md
+              - Surgery: pathology/forefoot/metatarsalgia/surgery.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - footnotes
