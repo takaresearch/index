@@ -32,7 +32,6 @@ extra:
     property: G-T0Z53T6RS9
 
 nav:
-  - Index: index.md
   - 臨床:
       - 臨床トップ: clinical/index.md
       - 共通アルゴリズム: clinical/algorithm.md
@@ -41,6 +40,7 @@ nav:
       - 会話フレーズ集: clinical/conversation_phrases.md
       - 問診・インターラクションの型: clinical/interaction.md
       - 手術記録の型: clinical/surgery_note.md
+      - OJT・実地研修: clinical/on_the_job_training.md
   - 研究:
       - 研究トップ: research/index.md
       - 業績: research/achievements.md
