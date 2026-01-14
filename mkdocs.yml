@@ -32,7 +32,6 @@ extra:
     property: G-T0Z53T6RS9
 
 nav:
-  - Index: index.md
   - 臨床:
       - 臨床トップ: clinical/index.md
       - 共通アルゴリズム: clinical/algorithm.md
