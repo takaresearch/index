@@ -33,18 +33,43 @@ extra:
 
 nav:
   - Index: index.md
-  - 臨床:
-      - 臨床トップ: clinical/index.md
+  - OUT PATIENT:
+      - Overview: clinical/outpatient/index.md
+      - 1. New Referral:
+          - Introduction: clinical/outpatient/new-referral/index.md
+          - A. Diagnostic + Non-Surgical:
+              - Patient Communication: clinical/outpatient/new-referral/diagnostic-nonsurgical/patient-communication.md
+              - Documentation: clinical/outpatient/new-referral/diagnostic-nonsurgical/documentation.md
+              - Short Presentation: clinical/outpatient/new-referral/diagnostic-nonsurgical/short-presentation.md
+          - B. Surgical Treatment:
+              - Patient Communication: clinical/outpatient/new-referral/surgical-treatment/patient-communication.md
+              - Documentation: clinical/outpatient/new-referral/surgical-treatment/documentation.md
+              - Short Presentation: clinical/outpatient/new-referral/surgical-treatment/short-presentation.md
+      - 2. Follow-up:
+          - Introduction: clinical/outpatient/follow-up/index.md
+          - A. Test Results + Non-Surgical:
+              - Patient Communication: clinical/outpatient/follow-up/test-results-nonsurgical/patient-communication.md
+              - Documentation: clinical/outpatient/follow-up/test-results-nonsurgical/documentation.md
+              - Short Presentation: clinical/outpatient/follow-up/test-results-nonsurgical/short-presentation.md
+          - B. Post-Op Acute (Complications):
+              - Patient Communication: clinical/outpatient/follow-up/postop-acute/patient-communication.md
+              - Documentation: clinical/outpatient/follow-up/postop-acute/documentation.md
+              - Short Presentation: clinical/outpatient/follow-up/postop-acute/short-presentation.md
+          - C. Post-Op Subacute (Recovery):
+              - Patient Communication: clinical/outpatient/follow-up/postop-subacute/patient-communication.md
+              - Documentation: clinical/outpatient/follow-up/postop-subacute/documentation.md
+              - Short Presentation: clinical/outpatient/follow-up/postop-subacute/short-presentation.md
+  - Reference:
       - Physical Examination: clinical/algorithm.md
-      - 外来の型: clinical/outpatient.md
-      - 外来英語フレーズ集: clinical/outpatient_phrasebook.md
-      - 会話フレーズ集: clinical/conversation_phrases.md
-      - 問診・インターラクションの型: clinical/interaction.md
-      - 手術記録の型: clinical/surgery_note.md
-  - 研究:
-      - 研究トップ: research/index.md
-      - 業績: research/achievements.md
-  - 運用・公開ポリシー: policy.md
+      - Conversation Phrases: clinical/conversation_phrases.md
+      - Outpatient Phrasebook: clinical/outpatient_phrasebook.md
+      - Interaction Templates: clinical/interaction.md
+      - Surgery Note Templates: clinical/surgery_note.md
+      - Legacy Outpatient Notes: clinical/outpatient.md
+  - Research:
+      - Research Top: research/index.md
+      - Achievements: research/achievements.md
+  - Policy: policy.md
 
 markdown_extensions:
   - admonition
