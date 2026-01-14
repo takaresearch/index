@@ -35,7 +35,7 @@ nav:
   - Index: index.md
   - 臨床:
       - 臨床トップ: clinical/index.md
-      - 共通アルゴリズム: clinical/algorithm.md
+      - Physical Examination: clinical/algorithm.md
       - 外来の型: clinical/outpatient.md
       - 外来英語フレーズ集: clinical/outpatient_phrasebook.md
       - 会話フレーズ集: clinical/conversation_phrases.md
