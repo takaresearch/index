@@ -1,0 +1,81 @@
+site_name: TAKA vs FELLOWSHIP
+site_description: 臨床および研究に関する記録（公開可能な範囲）
+site_author: ""
+repo_url: ""
+repo_name: ""
+
+theme:
+  name: material
+  language: ja
+  palette:
+    scheme: default
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.integrate
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+
+extra_css:
+  - stylesheets/print.css
+
+extra_javascript:
+  - javascripts/print-button.js
+
+extra:
+  analytics:
+    provider: google
+    property: G-T0Z53T6RS9
+
+nav:
+  - Index: index.md
+  - OUT PATIENT:
+      - Overview: clinical/outpatient/index.md
+      - 1. New Referral:
+          - Introduction: clinical/outpatient/new-referral/index.md
+          - A. Diagnostic + Non-Surgical:
+              - Patient Communication: clinical/outpatient/new-referral/diagnostic-nonsurgical/patient-communication.md
+              - Documentation: clinical/outpatient/new-referral/diagnostic-nonsurgical/documentation.md
+              - Short Presentation: clinical/outpatient/new-referral/diagnostic-nonsurgical/short-presentation.md
+          - B. Surgical Treatment:
+              - Patient Communication: clinical/outpatient/new-referral/surgical-treatment/patient-communication.md
+              - Documentation: clinical/outpatient/new-referral/surgical-treatment/documentation.md
+              - Short Presentation: clinical/outpatient/new-referral/surgical-treatment/short-presentation.md
+      - 2. Follow-up:
+          - Introduction: clinical/outpatient/follow-up/index.md
+          - A. Test Results + Non-Surgical:
+              - Patient Communication: clinical/outpatient/follow-up/test-results-nonsurgical/patient-communication.md
+              - Documentation: clinical/outpatient/follow-up/test-results-nonsurgical/documentation.md
+              - Short Presentation: clinical/outpatient/follow-up/test-results-nonsurgical/short-presentation.md
+          - B. Post-Op Acute (Complications):
+              - Patient Communication: clinical/outpatient/follow-up/postop-acute/patient-communication.md
+              - Documentation: clinical/outpatient/follow-up/postop-acute/documentation.md
+              - Short Presentation: clinical/outpatient/follow-up/postop-acute/short-presentation.md
+          - C. Post-Op Subacute (Recovery):
+              - Patient Communication: clinical/outpatient/follow-up/postop-subacute/patient-communication.md
+              - Documentation: clinical/outpatient/follow-up/postop-subacute/documentation.md
+              - Short Presentation: clinical/outpatient/follow-up/postop-subacute/short-presentation.md
+  - Reference:
+      - Physical Examination: clinical/algorithm.md
+      - Conversation Phrases: clinical/conversation_phrases.md
+      - Outpatient Phrasebook: clinical/outpatient_phrasebook.md
+      - Interaction Templates: clinical/interaction.md
+      - Surgery Note Templates: clinical/surgery_note.md
+      - Legacy Outpatient Notes: clinical/outpatient.md
+  - Research:
+      - Research Top: research/index.md
+      - Achievements: research/achievements.md
+  - Policy: policy.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - footnotes
+
+
